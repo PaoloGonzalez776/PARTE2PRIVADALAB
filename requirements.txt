@@ -1,0 +1,9 @@
+torch>=2.1.0
+numpy>=1.24.0
+tokenizers>=0.15.0
+datasets>=2.16.0
+safetensors>=0.4.0
+pytest>=7.4.0
+
+# Opcional: solo si vas a entrenar en TPU
+# torch_xla  (instalar con: pip install torch_xla[tpu] -f https://storage.googleapis.com/libtpu-releases/index.html)
